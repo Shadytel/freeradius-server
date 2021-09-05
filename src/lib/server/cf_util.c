@@ -1041,7 +1041,7 @@ char const *cf_section_value_find(CONF_SECTION const *cs, char const *attr)
 	return (cp ? cp->value : NULL);
 }
 
-/** Return the second identifier of a #CONF_SECTION
+/** Return the first identifier of a #CONF_SECTION
  *
  * @param[in] cs	to return identifiers for.
  * @return
